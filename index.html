@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MEDZI TOURS — Découverte & visites partout au Sénégal</title>
+  <meta name="description" content="MEDZI TOURS : Découverte & visites partout au Sénégal. Circuits nature, culture, îles, excursions, sur-mesure." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <a class="logo logo--img" href="index.html">
+    <img src="assets/img/logo.svg" alt="MEDZI TOURS" height="34" />
+    <span class="logo__text">MEDZI TOURS</span>
+  </a>
+
+  <nav class="nav" aria-label="Navigation principale">
+    <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+    <ul id="navMenu" class="nav__menu">
+      <li><a class="active" href="index.html">Accueil</a></li>
+      <li><a class="" href="tours.html">Circuits</a></li>
+      <li><a class="" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <a class="btn btn--primary header-cta" href="https://wa.me/221773206054" target="_blank" rel="noopener">WhatsApp</a>
+</header>
+
+  <main>
+    <section class="hero" style="--hero:url('assets/img/hero.jpg');">
+      <div class="hero__content">
+        <h1>Découverte & visites partout au Sénégal.</h1>
+        <p>Excursions, circuits privés ou en petit groupe : culture, nature, îles… On organise, vous profitez.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="tours.html">Voir les circuits</a>
+          <a class="btn btn--ghost" href="https://wa.me/221773206054" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+        <div class="hero__badges">
+          <span>✅ Guide local</span>
+          <span>✅ Sur‑mesure</span>
+          <span>✅ Réponse rapide</span>
+        </div>
+      </div>
+
+      <div class="hero__card card">
+        <h2>Recherche rapide</h2>
+        <form id="quickSearch" class="form">
+          <label>Lieu / envie
+            <input name="destination" placeholder="Ex: Dakar, Casamance, îles..." />
+          </label>
+          <label>Durée
+            <select name="duree">
+              <option value="">Peu importe</option>
+              <option value="1-3">1–3 jours</option>
+              <option value="4-7">4–7 jours</option>
+              <option value="8-14">8–14 jours</option>
+              <option value="15+">15+ jours</option>
+            </select>
+          </label>
+          <button class="btn btn--primary" type="submit">Trouver</button>
+          <p class="hint">👉 Résultats sur “Circuits”.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-3">
+        <div class="card">
+          <h3>Organisation simple</h3>
+          <p class="muted">Programme clair, rythme adapté, options privées ou groupe.</p>
+        </div>
+        <div class="card">
+          <h3>Vrai Sénégal</h3>
+          <p class="muted">Culture, nature, marchés, villages, îles et coins authentiques.</p>
+        </div>
+        <div class="card">
+          <h3>Contact direct</h3>
+          <p class="muted"><a href="tel:+221773206054">+221 77 320 60 54</a> · <a href="https://wa.me/221773206054" target="_blank" rel="noopener">WhatsApp</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted">
+      <div class="container">
+        <div class="section__head">
+          <h2>Circuits populaires</h2>
+          <p class="muted">Exemples (modifiables)</p>
+        </div>
+        <div class="grid-3">
+          <article class="tour" id="dakar">
+            <div class="tour__top"><span class="tag">CULTURE</span><span class="price">Dès 120€</span></div>
+            <h3>Dakar & Gorée (1–3 jours)</h3>
+            <p class="muted">Île de Gorée, monuments, marchés et street food.</p>
+            <a class="btn btn--ghost" href="tours.html#dakar">Voir le détail</a>
+          </article>
+          <article class="tour" id="saloum">
+            <div class="tour__top"><span class="tag">BATEAU</span><span class="price">Dès 320€</span></div>
+            <h3>Sine Saloum (4–7 jours)</h3>
+            <p class="muted">Bolongs, mangrove, pirogue et nature.</p>
+            <a class="btn btn--ghost" href="tours.html#sine-saloum">Voir le détail</a>
+          </article>
+          <article class="tour" id="casamance">
+            <div class="tour__top"><span class="tag">NATURE</span><span class="price">Dès 790€</span></div>
+            <h3>Casamance (8–14 jours)</h3>
+            <p class="muted">Nature, villages, balades et détente.</p>
+            <a class="btn btn--ghost" href="tours.html#casamance">Voir le détail</a>
+          </article>
+        </div>
+        <div class="section__actions">
+          <a class="btn btn--primary" href="tours.html">Voir tous les circuits</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container card about">
+        <img src="assets/img/moi.jpg" alt="Guide MEDZI TOURS" />
+        <div>
+          <h2>Votre guide</h2>
+          <p class="muted">Je vous accompagne partout au Sénégal pour des visites authentiques, à votre rythme.</p>
+          <p>
+            <a class="btn btn--primary" href="https://wa.me/221773206054" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn--ghost" href="contact.html">Contact email</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--cta">
+      <div class="container cta">
+        <div>
+          <h2>Tu veux un devis rapide ?</h2>
+          <p class="muted">Envoie “dates + nombre + budget” sur WhatsApp.</p>
+        </div>
+        <a class="btn btn--primary" href="https://wa.me/221773206054" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <div class="logo logo--footer">MEDZI TOURS</div>
+      <p class="muted">Découverte & visites partout au Sénégal.</p>
+    </div>
+    <div>
+      <h4>Liens</h4>
+      <ul>
+        <li><a href="tours.html">Circuits</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+221773206054">+221 77 320 60 54</a></li>
+        <li><a href="https://wa.me/221773206054" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="mailto:momobrice34@gmail.com">momobrice34@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <small>© <span id="year"></span> MEDZI TOURS — Tous droits réservés.</small>
+  </div>
+</footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

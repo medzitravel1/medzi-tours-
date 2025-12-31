@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — MEDZI TOURS</title>
+  <meta name="description" content="Contactez MEDZI TOURS pour un devis de visite au Sénégal." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <a class="logo logo--img" href="index.html">
+    <img src="assets/img/logo.svg" alt="MEDZI TOURS" height="34" />
+    <span class="logo__text">MEDZI TOURS</span>
+  </a>
+
+  <nav class="nav" aria-label="Navigation principale">
+    <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+    <ul id="navMenu" class="nav__menu">
+      <li><a class="" href="index.html">Accueil</a></li>
+      <li><a class="" href="tours.html">Circuits</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <a class="btn btn--primary header-cta" href="https://wa.me/221773206054" target="_blank" rel="noopener">WhatsApp</a>
+</header>
+
+  <main class="section">
+    <div class="container grid-2">
+      <section class="card">
+        <h1>Contact / Devis</h1>
+        <p class="muted">Le plus simple : WhatsApp. Sinon tu peux aussi envoyer un mail ici.</p>
+
+        <p>
+          <a class="btn btn--primary" href="https://wa.me/221773206054" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn--ghost" href="tel:+221773206054">Appeler +221 77 320 60 54</a>
+        </p>
+
+        <div class="divider"></div>
+
+        <form id="contactForm" class="form">
+          <label>Nom
+            <input name="nom" required />
+          </label>
+
+          <label>Email
+            <input name="email" type="email" required />
+          </label>
+
+          <label>Région / Destination
+            <input name="destination" placeholder="Ex: Dakar, Saloum, Casamance..." required />
+          </label>
+
+          <div class="grid-2">
+            <label>Date de départ
+              <input name="depart" type="date" />
+            </label>
+            <label>Durée (jours)
+              <input name="duree" type="number" min="1" placeholder="Ex: 5" />
+            </label>
+          </div>
+
+          <label>Style (culture / nature / bateau)
+            <input name="style" placeholder="Ex: visites, pirogue, marchés..." />
+          </label>
+
+          <label>Budget par personne (€)
+            <input name="budget" type="number" min="0" placeholder="Ex: 300" />
+          </label>
+
+          <label>Message
+            <textarea name="message" rows="5" placeholder="Tes envies, rythme, privé/groupe…"></textarea>
+          </label>
+
+          <button class="btn btn--primary" type="submit">Envoyer par email</button>
+          <p class="hint">Ce bouton ouvre ton application mail et prépare le message.</p>
+        </form>
+      </section>
+
+      <aside class="card">
+        <h2>Coordonnées</h2>
+        <ul class="bullets">
+          <li>📍 Sénégal</li>
+          <li>📞 <a href="tel:+221773206054">+221 77 320 60 54</a></li>
+          <li>💬 <a href="https://wa.me/221773206054" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li>✉️ <a href="mailto:momobrice34@gmail.com">momobrice34@gmail.com</a></li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <div class="logo logo--footer">MEDZI TOURS</div>
+      <p class="muted">Découverte & visites partout au Sénégal.</p>
+    </div>
+    <div>
+      <h4>Liens</h4>
+      <ul>
+        <li><a href="tours.html">Circuits</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+221773206054">+221 77 320 60 54</a></li>
+        <li><a href="https://wa.me/221773206054" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="mailto:momobrice34@gmail.com">momobrice34@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <small>© <span id="year"></span> MEDZI TOURS — Tous droits réservés.</small>
+  </div>
+</footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
